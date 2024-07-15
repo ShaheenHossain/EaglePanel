@@ -1,0 +1,12 @@
+[Unit]
+Description = EaglePanel SSH Websocket Daemon
+
+[Service]
+Type=forking
+ExecStart = /usr/local/EagleEP/bin/python /usr/local/EagleEP/WebTerminal/servCTRL.py start
+ExecStop = /usr/local/EagleEP/bin/python /usr/local/EagleEP/WebTerminal/servCTRL.py stop
+Restart = /usr/local/EagleEP/bin/python /usr/local/EagleEP/WebTerminal/servCTRL.py restart
+Restart=on-abnormal
+
+[Install]
+WantedBy=default.target

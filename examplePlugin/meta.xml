@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eaglepanelPluginConfig>
+    <name>examplePlugin</name>
+    <type>plugin</type>
+    <description>This is an example plugin</description>
+    <version>0</version>
+</eaglepanelPluginConfig>

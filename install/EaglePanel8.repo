@@ -1,0 +1,5 @@
+[EaglePanel]
+name=EaglePanel
+baseurl=https://rep8.eaglepanel.net/
+gpgkey=https://rep.eaglepanel.net/RPM-GPG-KEY-eaglepanel
+gpgcheck=1

@@ -1,0 +1,192 @@
+[
+  {
+    "Package": "MariaDB-client.x86_64",
+    "Version": "10.1.44-1.el7.centos",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "MariaDB-common.x86_64",
+    "Version": "10.1.44-1.el7.centos",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "MariaDB-devel.x86_64",
+    "Version": "10.1.44-1.el7.centos",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "MariaDB-server.x86_64",
+    "Version": "10.1.44-1.el7.centos",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "MariaDB-shared.x86_64",
+    "Version": "10.1.44-1.el7.centos",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "compat-libtidy.x86_64",
+    "Version": "0.99.0-37.20091203.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "dovecot.x86_64",
+    "Version": "2:2.3.10-2",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "dovecot-mysql.x86_64",
+    "Version": "2:2.3.10-2",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "fastlz.x86_64",
+    "Version": "0.1.0-0.1.20070619svnrev12.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "galera.x86_64",
+    "Version": "25.3.28-1.rhel7.el7.centos",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "htop.x86_64",
+    "Version": "2.2.0-3.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "jemalloc.x86_64",
+    "Version": "3.6.0-1.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "libargon2.x86_64",
+    "Version": "20161029-3.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "libbsd.x86_64",
+    "Version": "0.8.3-1.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "libc-client.x86_64",
+    "Version": "2007f-16.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "libdb4.x86_64",
+    "Version": "4.8.30-13.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "liblzf.x86_64",
+    "Version": "3.6-7.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "libmcrypt.x86_64",
+    "Version": "2.5.8-13.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "libopendkim.x86_64",
+    "Version": "2.11.0-0.1.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "libsodium.x86_64",
+    "Version": "1.0.18-1.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "libtidy.x86_64",
+    "Version": "5.4.0-1.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "luajit.x86_64",
+    "Version": "2.0.4-3.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "oniguruma.x86_64",
+    "Version": "5.9.5-3.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "opendbx.x86_64",
+    "Version": "1.4.6-6.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "opendkim.x86_64",
+    "Version": "2.11.0-0.1.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "pdns.x86_64",
+    "Version": "4.2.2-1pdns.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "pdns-backend-mysql.x86_64",
+    "Version": "4.2.2-1pdns.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "postfix3.x86_64",
+    "Version": "2:3.4.7-1.gf.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "postfix3-ldap.x86_64",
+    "Version": "2:3.4.7-1.gf.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "postfix3-mysql.x86_64",
+    "Version": "2:3.4.7-1.gf.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "postfix3-pcre.x86_64",
+    "Version": "2:3.4.7-1.gf.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "pure-ftpd.x86_64",
+    "Version": "1.0.47-3.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "redis.x86_64",
+    "Version": "3.2.12-2.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "restic.x86_64",
+    "Version": "0.9.6-1.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "rsync31u.x86_64",
+    "Version": "3.1.3-1.ius.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "udns.x86_64",
+    "Version": "0.4-3.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "udns-devel.x86_64",
+    "Version": "0.4-3.el7",
+    "Repo": "@EaglePanel"
+  },
+  {
+    "Package": "vim-minimal.x86_64",
+    "Version": "2:8.0.003-1.gf.el7",
+    "Repo": "@EaglePanel"
+  }
+]
