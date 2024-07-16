@@ -202,7 +202,7 @@ echo -e "\nChecking root privileges..."
 }
 
 Check_Server_IP() {
-Server_IP=$(curl --silent --max-time 30 -4 https://eaglepanel.sh/?ip)
+Server_IP=$(curl --silent --max-time 30 -4 https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel.sh/?ip)
   if [[ $Server_IP =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
     echo -e "Valid IP detected..."
   else
@@ -214,7 +214,7 @@ Server_IP=$(curl --silent --max-time 30 -4 https://eaglepanel.sh/?ip)
 echo -e "\nChecking server location...\n"
 
 if [[ "$Server_Country" != "CN" ]] ; then
-  Server_Country=$(curl --silent --max-time 10 -4 https://eaglepanel.sh/?country)
+  Server_Country=$(curl --silent --max-time 10 -4 https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel.sh/?country)
   if [[ ${#Server_Country} != "2" ]] ; then
    Server_Country="Unknow"
   fi
