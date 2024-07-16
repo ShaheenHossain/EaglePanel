@@ -562,14 +562,14 @@ fi
 wget "${Git_Content_URL}/${Branch_Name}/plogical/upgrade.py"
 
 if [[ "$Server_Country" = "CN" ]] ; then
-  sed -i 's|git clone https://github.com/usmannasir/eaglepanel|echo git cloned|g' upgrade.py
+  sed -i 's|git clone https://github.com/ShaheenHossain/eaglepanel|echo git cloned|g' upgrade.py
 
   Retry_Command "git clone ${Git_Clone_URL}"
     Check_Return "git clone ${Git_Clone_URL}"
 
   # shellcheck disable=SC2086
-  sed -i 's|https://raw.githubusercontent.com/usmannasir/eaglepanel/stable/install/litespeed/httpd_config.xml|'${Git_Content_URL}/${Branch_Name}'//install/litespeed/httpd_config.xml|g' upgrade.py
-  sed -i 's|https://eaglepanel.sh/composer.sh|https://gitee.com/qtwrk/eaglepanel/raw/stable/install/composer_cn.sh|g' upgrade.py
+  sed -i 's|https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/install/litespeed/httpd_config.xml|'${Git_Content_URL}/${Branch_Name}'//install/litespeed/httpd_config.xml|g' upgrade.py
+  sed -i 's|https://gitee.com/qtwrk/eaglepanel/raw/stable/install/composer_cn.sh|https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/install/composer.sh|g' upgrade.py
 fi
 
 }
@@ -745,7 +745,9 @@ if echo "$Tmp_Output" | grep -q "mail@example.com" ; then
 fi
 
 if [[ ! -f /usr/bin/eaglepanel_utility ]]; then
-  wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh
+#  wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh
+  wget -q -O /usr/bin/eaglepanel_utility https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel_utility.sh
+
   chmod 700 /usr/bin/eaglepanel_utility
 fi
 

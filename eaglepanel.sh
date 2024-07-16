@@ -1722,7 +1722,8 @@ fi
 
 Post_Install_Setup_Utility() {
 if [[ ! -f /usr/bin/eaglepanel_utility ]]; then
-  wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh
+  wget -q -O /usr/bin/eaglepanel_utility https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel_utility.sh
+#  wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh
   chmod 700 /usr/bin/eaglepanel_utility
 fi
 }
@@ -1897,12 +1898,13 @@ sed -i "s|lsws-5.3.5|lsws-$LSWS_Stable_Version|g" /usr/local/EagleEP/serverStatu
 
 
 if [[ ! -f /usr/bin/eaglepanel_utility ]]; then
-  wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh
+  wget -q -O /usr/bin/eaglepanel_utility https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel_utility.sh
+#  wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh
   chmod 700 /usr/bin/eaglepanel_utility
 fi
 
 rm -rf /etc/profile.d/eaglepanel*
-curl --silent -o /etc/profile.d/eaglepanel.sh https://eaglepanel.sh/?banner 2>/dev/null
+curl --silent -o /etc/profile.d/eaglepanel.sh https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel.sh/?banner 2>/dev/null
 chmod 700 /etc/profile.d/eaglepanel.sh
 echo "$Admin_Pass" > /etc/eaglepanel/adminPass
 chmod 600 /etc/eaglepanel/adminPass

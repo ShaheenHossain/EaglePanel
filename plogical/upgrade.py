@@ -391,7 +391,7 @@ $cfg['Servers'][$i]['LogoutURL'] = 'phpmyadminsignin.php?logout';
         if os.path.exists('composer.sh'):
             os.remove('composer.sh')
 
-        command = "wget https://eaglepanel.sh/composer.sh"
+        command = "wget https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/install/composer.sh"
         Upgrade.executioner(command, 0)
 
         command = "chmod +x composer.sh"

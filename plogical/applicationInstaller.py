@@ -107,7 +107,7 @@ class ApplicationInstaller(multi.Thread):
             os.remove('composer.sh')
 
         if not os.path.exists('/usr/bin/composer'):
-            command = "wget https://eaglepanel.sh/composer.sh"
+            command = "wget https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/install/composer.sh"
             ProcessUtilities.executioner(command, 'root', True)
 
             command = "chmod +x composer.sh"
