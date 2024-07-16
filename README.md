@@ -56,6 +56,12 @@ Web Hosting Control Panel that uses OpenLiteSpeed as the underlying Web Server.
 ```
 sh <(curl https://eaglepanel.net/install.sh || wget -O - https://eaglepanel.net/install.sh)
 ```
+sudo wget https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/install.sh
+
+sudo chmod +x install.sh
+
+sudo ./install.sh
+
 
 # Upgrading EaglePanel
 
