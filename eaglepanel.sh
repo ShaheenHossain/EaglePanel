@@ -194,7 +194,7 @@ echo -e "\nChecking root privileges..."
   if [[ $(id -u) != 0 ]] >/dev/null; then
     echo -e "\nYou must run on root user to install EaglePanel...\n"
     echo -e "or run following command: (do NOT miss the quotes)"
-    echo -e "\e[31msudo su -c \"sh <(curl https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel.sh || wget -O - https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel.sh)\"\e[39m"
+    echo -e "\e[31msudo su -c \"sh <(curl https://eaglepanel.sh || wget -O - https://eaglepanel.sh)\"\e[39m"
     exit 1
   else
     echo -e "\nYou are runing as root...\n"

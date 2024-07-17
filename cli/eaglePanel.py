@@ -1317,8 +1317,7 @@ def main():
 
     elif args.function == 'utility':
         if not os.path.exists('/usr/bin/eaglepanel_utility'):
-            # command = 'wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh'
-            command = 'wget -q -O /usr/bin/eaglepanel_utility https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel_utility.sh'
+            command = 'wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh'
             ProcessUtilities.executioner(command)
 
             command = 'chmod 700 /usr/bin/eaglepanel_utility'
@@ -1328,8 +1327,7 @@ def main():
         ProcessUtilities.executioner(command)
     elif args.function == 'upgrade' or args.function == 'update':
         if not os.path.exists('/usr/bin/eaglepanel_utility'):
-            # command = 'wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh'
-            command = 'wget -q -O /usr/bin/eaglepanel_utility https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel_utility.sh'
+            command = 'wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh'
             ProcessUtilities.executioner(command)
 
             command = 'chmod 700 /usr/bin/eaglepanel_utility'
@@ -1339,8 +1337,7 @@ def main():
         ProcessUtilities.executioner(command)
     elif args.function == 'help':
         if not os.path.exists('/usr/bin/eaglepanel_utility'):
-            command = 'wget -q -O /usr/bin/eaglepanel_utility https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel_utility.sh'
-            # command = 'wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh'
+            command = 'wget -q -O /usr/bin/eaglepanel_utility https://eaglepanel.sh/misc/eaglepanel_utility.sh'
             ProcessUtilities.executioner(command)
 
             command = 'chmod 700 /usr/bin/eaglepanel_utility'

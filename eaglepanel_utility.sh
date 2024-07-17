@@ -110,8 +110,7 @@ SUM1=${SUM:0:32}
 #get md5sum of local file
 
 rm -f /usr/local/EaglePanel/eaglepanel_utility.sh
-wget -q -O /usr/local/EaglePanel/eaglepanel_utility https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel_utility.sh
-#wget -q -O /usr/local/EaglePanel/eaglepanel_utility.sh https://eaglepanel.sh/misc/eaglepanel_utility.sh
+wget -q -O /usr/local/EaglePanel/eaglepanel_utility.sh https://eaglepanel.sh/misc/eaglepanel_utility.sh
 
 chmod 600 /usr/local/EaglePanel/eaglepanel_utility.sh
 

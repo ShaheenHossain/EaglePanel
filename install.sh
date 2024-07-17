@@ -59,7 +59,7 @@ fi
 
 rm -f eaglepanel.sh
 rm -f install.tar.gz
-curl --silent -o eaglepanel.sh "https://raw.githubusercontent.com/ShaheenHossain/eaglepanel/master/eaglepanel.sh/?dl&$SERVER_OS" 2>/dev/null
+curl --silent -o eaglepanel.sh "https://eaglepanel.sh/?dl&$SERVER_OS" 2>/dev/null
 chmod +x eaglepanel.sh
 ./eaglepanel.sh $@
 
